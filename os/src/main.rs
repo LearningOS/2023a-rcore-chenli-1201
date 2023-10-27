@@ -27,7 +27,8 @@ mod board;
 
 global_asm!(include_str!("entry.asm"));
 
-/// clear BSS segment
+/// clear BSS s
+/// egment
 pub fn clear_bss() {
     extern "C" {
         fn sbss();
