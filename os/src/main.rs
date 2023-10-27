@@ -51,7 +51,8 @@ fn clear_bss() {
     }
 }
 
-/// the rust entry-point of os
+/// the rust entry-
+/// point of os
 #[no_mangle]
 pub fn rust_main() -> ! {
     extern "C" {
